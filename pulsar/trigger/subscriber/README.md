@@ -5,7 +5,7 @@ This trigger allows your flogo application to listen on an Apache Pulsar topic.
 ## Installation
 
 ```bash
-flogo install github.com/project-flogo/messaging-contrib/pulsar/trigger/subscriber
+flogo install github.com/jdattatr-tibco/messaging-contrib/pulsar/trigger/subscriber
 ```
 
 ## Configuration
@@ -44,8 +44,8 @@ flogo install github.com/project-flogo/messaging-contrib/pulsar/trigger/subscrib
   "imports": [
     "github.com/project-flogo/contrib/activity/log",
     "github.com/project-flogo/flow",
-    "github.com/project-flogo/messaging-contrib/pulsar/trigger/subscriber",
-    "github.com/project-flogo/messaging-contrib/pulsar/connection"
+    "github.com/jdattatr-tibco/messaging-contrib/pulsar/trigger/subscriber",
+    "github.com/jdattatr-tibco/messaging-contrib/pulsar/connection"
   ],
   "triggers": [
     {
@@ -117,7 +117,7 @@ flogo install github.com/project-flogo/messaging-contrib/pulsar/trigger/subscrib
   ],
   "connections": {
     "a7730ae0-0199-11ea-9e1b-1b6d6afda999": {
-      "ref": "github.com/project-flogo/messaging-contrib/pulsar/connection",
+      "ref": "github.com/jdattatr-tibco/messaging-contrib/pulsar/connection",
       "settings": {
         "description": "",
         "name": "mc2",

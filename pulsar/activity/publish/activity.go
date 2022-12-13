@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/apache/pulsar-client-go/pulsar"
+	connection "github.com/jdattatr-tibco/messaging-contrib/pulsar/connection"
 	"github.com/project-flogo/core/activity"
 	"github.com/project-flogo/core/data"
 	"github.com/project-flogo/core/data/coerce"
@@ -15,7 +16,6 @@ import (
 	cnn "github.com/project-flogo/core/support/connection"
 	"github.com/project-flogo/core/support/log"
 	"github.com/project-flogo/core/support/trace"
-	connection "github.com/project-flogo/messaging-contrib/pulsar/connection"
 )
 
 func init() {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/project-flogo/core/activity"
 	"github.com/project-flogo/core/support/test"
-	_ "github.com/project-flogo/messaging-contrib/pulsar/connection"
+	_ "github.com/jdattatr-tibco/messaging-contrib/pulsar/connection"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -21,7 +21,7 @@ func TestSettings(t *testing.T) {
 
 	settings := &Settings{
 		Connection: map[string]interface{}{
-			"ref": "github.com/project-flogo/messaging-contrib/pulsar/connection",
+			"ref": "github.com/jdattatr-tibco/messaging-contrib/pulsar/connection",
 			"settings": map[string]interface{}{
 				"url": "pulsar://localhost:6605",
 			},

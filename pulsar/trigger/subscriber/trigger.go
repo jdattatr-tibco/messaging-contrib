@@ -9,6 +9,7 @@ import (
 	"time"
 
 	"github.com/apache/pulsar-client-go/pulsar"
+	connection "github.com/jdattatr-tibco/messaging-contrib/pulsar/connection"
 	"github.com/project-flogo/core/data/coerce"
 	"github.com/project-flogo/core/data/metadata"
 	"github.com/project-flogo/core/engine"
@@ -16,7 +17,6 @@ import (
 	"github.com/project-flogo/core/support/log"
 	"github.com/project-flogo/core/support/trace"
 	"github.com/project-flogo/core/trigger"
-	connection "github.com/project-flogo/messaging-contrib/pulsar/connection"
 )
 
 const (

@@ -4,7 +4,7 @@ This connection connects to apache pulsar.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/messaging-contrib/pulsar/connection
+flogo install github.com/jdattatr-tibco/messaging-contrib/pulsar/connection
 ```
 
 ## Configuration
@@ -27,7 +27,7 @@ For Example:
 ```json
 "connections": {
     "a7730ae0-0199-11ea-9e1b-1b6d6afda999": {
-      "ref": "github.com/project-flogo/messaging-contrib/pulsar/connection",
+      "ref": "github.com/jdattatr-tibco/messaging-contrib/pulsar/connection",
       "settings": {
         "description": "Plain text connection",
         "name": "plain",
@@ -39,7 +39,7 @@ For Example:
 
 "connections": {
     "a7730ae0-0199-11ea-9e1b-1b6d6afda999": {
-      "ref": "github.com/project-flogo/messaging-contrib/pulsar/connection",
+      "ref": "github.com/jdattatr-tibco/messaging-contrib/pulsar/connection",
       "settings": {
         "description": "Tls encrypted connection with JWT auth",
         "name": "jwt",
@@ -54,7 +54,7 @@ For Example:
 
   "connections": {
     "a7730ae0-0199-11ea-9e1b-1b6d6afda999": {
-      "ref": "github.com/project-flogo/messaging-contrib/pulsar/connection",
+      "ref": "github.com/jdattatr-tibco/messaging-contrib/pulsar/connection",
       "settings": {
         "description": "Encrypted connection using TLS for auth",
         "name": "tlsauth",

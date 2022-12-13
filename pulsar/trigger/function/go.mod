@@ -1,4 +1,4 @@
-module github.com/project-flogo/messaging-contrib/pulsar/trigger/function
+module github.com/jdattatr-tibco/messaging-contrib/pulsar/trigger/function
 
 go 1.13
 

@@ -5,7 +5,7 @@ This trigger provides your flogo application the ability to build pulsar functio
 ## Installation
 
 ```bash
-flogo install github.com/project-flogo/messaging-contrib/pulsar/trigger/function
+flogo install github.com/jdattatr-tibco/messaging-contrib/pulsar/trigger/function
 ```
 ## Configuration
 
